@@ -12,6 +12,9 @@ if( !defined('ABSPATH') ){
 	exit;
 }
 
+// Global Options Variable
+$ffl_options = get_option('ffl_settings');
+
 // Load Scripts
 require_once( plugin_dir_path(__FILE__).'/includes/facebook-footer-link-scripts.php' );
 
